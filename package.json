@@ -1,0 +1,13 @@
+{
+  "name": "soccerTrivia",
+  "version": "1.0.0",
+  "description": "* Scraping for Soccer Trivia App",
+  "main": "index.js",
+  "scripts": {
+    "start": "server/src/index.js",
+    "heroku-postbuild": "cd client && npm install && npm install @vue/cli && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
